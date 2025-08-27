@@ -1,6 +1,6 @@
 describe('Formulario de login', () => {
   beforeEach(() => {
-    cy.visit('http://localhost:3000/');
+    cy.visit('/');
   });
   it('Email válido', () => {
     cy.getByData('botao-login').click();
